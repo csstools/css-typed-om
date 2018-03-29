@@ -1,0 +1,80 @@
+{
+  "name": "css-typed-om",
+  "version": "0.0.0",
+  "description": "Use CSS Typed Object Model in the browser",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jonathantneal/css-typed-om",
+  "homepage": "https://github.com/jonathantneal/css-typed-om#readme",
+  "bugs": "https://github.com/jonathantneal/css-typed-om/issues",
+  "main": "index.umd.js",
+  "module": "index.es.js",
+  "files": [
+    "index.umd.js",
+    "index.es.js"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "pretest": "rollup -c .rollup.js --silent",
+    "test": "echo 'Running tests...'; npm run test:js",
+    "test:ec": "echint --ignore index.*.js test",
+    "test:js": "eslint *.js lib/*.js --cache --ignore-path .gitignore --quiet"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-dev": "^2.0.0",
+    "pre-commit": "^1.2.2",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3"
+  },
+  "eslintConfig": {
+    "extends": "dev",
+    "parser": "babel-eslint"
+  },
+  "keywords": [
+    "css",
+    "number",
+    "percent",
+    "em",
+    "ex",
+    "ch",
+    "rem",
+    "vw",
+    "vh",
+    "vmin",
+    "vmax",
+    "cm",
+    "mm",
+    "in",
+    "pt",
+    "pc",
+    "px",
+    "Q",
+    "deg",
+    "grad",
+    "rad",
+    "turn",
+    "s",
+    "ms",
+    "Hz",
+    "kHz",
+    "dpi",
+    "dpcm",
+    "dppx",
+    "fr",
+    "StylePropertyMap",
+    "CSSUnitValue",
+    "CSSStyleValue",
+    "CSSKeywordValue",
+    "styleMap",
+    "attributeStyleMap",
+    "computedStyleMap"
+  ]
+}
