@@ -16,7 +16,7 @@ npm install css-typed-om
 Polyfill the `window` object:
 
 ```js
-import { polyfill } from 'css-typed-om';
+import polyfill from 'css-typed-om';
 
 polyfill(window);
 ```
@@ -85,20 +85,37 @@ exist:
 
 ### StylePropertyMap
 
-A constructor for `StylePropertyMap`, used to polyfill 
+A constructor for `StylePropertyMap`, used by the polyfill for `CSS`,
+`CSSRule`, and `Element`.
+
+```js
+import { StylePropertyMap } from 'css-typed-om';
+```
 
 ### CSSKeywordValue
 
 A constructor for `CSSKeywordValue`, used by `StylePropertyMap`.
 
+```js
+import { CSSKeywordValue } from 'css-typed-om';
+```
+
 ### CSSUnitValue
 
 A constructor for `CSSUnitValue`, used by `StylePropertyMap`.
 
+```js
+import { CSSUnitValue } from 'css-typed-om';
+```
+
 ### CSSStyleValue
 
 A constructor for `CSSStyleValue`, the super constructor of `CSSKeywordValue`
-and `CSSUnitValue`.
+and `CSSStyleValue`.
+
+```js
+import { StylePropertyMap } from 'css-typed-om';
+```
 
 [npm-url]: https://www.npmjs.com/package/css-typed-om
 [npm-img]: https://img.shields.io/npm/v/css-typed-om.svg
