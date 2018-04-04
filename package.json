@@ -1,6 +1,6 @@
 {
   "name": "css-typed-om",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Use CSS Typed Object Model in the browser",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",

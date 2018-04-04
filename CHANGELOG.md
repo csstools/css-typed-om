@@ -1,5 +1,10 @@
 # Changes to CSS Typed Object Model
 
+### 0.2.0 (April 4, 2018)
+
+- Safely checks for existing methods before polyfilling
+- `CSSUnitValue` and `CSSKeywordValue` have realistic getters and setters
+
 ### 0.1.0 (April 2, 2018)
 
 - Default export is now `polyfill`
