@@ -1,0 +1,19 @@
+{
+  "name": "css-typed-om-codepen",
+  "scripts": {
+    "start": "rollup -c .rollup.js --silent"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.58",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^3.0.0",
+    "uglify-js": "^3.3.21"
+  },
+  "private": true
+}
