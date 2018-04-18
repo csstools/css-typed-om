@@ -1,5 +1,11 @@
 # Changes to CSS Typed Object Model
 
+### 0.3.0 (April 17, 2018)
+
+- Only polyfill constructors on the window object passed into `polyfill()`
+- Support CSS calc, like `add()`, `sub()`, `mul()`, and `div()`
+- Support CSS min and max, like `min()` and `max()`
+
 ### 0.2.0 (April 4, 2018)
 
 - Safely checks for existing methods before polyfilling
