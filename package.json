@@ -1,12 +1,12 @@
 {
   "name": "css-typed-om",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Use CSS Typed Object Model in the browser",
   "author": "Jonathan Neal <jonathantneal@hotmail.com>",
   "license": "CC0-1.0",
-  "repository": "jonathantneal/css-typed-om",
-  "homepage": "https://github.com/jonathantneal/css-typed-om#readme",
-  "bugs": "https://github.com/jonathantneal/css-typed-om/issues",
+  "repository": "csstools/css-typed-om",
+  "homepage": "https://github.com/csstools/css-typed-om#readme",
+  "bugs": "https://github.com/csstools/css-typed-om/issues",
   "main": "index.umd.js",
   "module": "index.es.js",
   "files": [

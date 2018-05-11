@@ -26,7 +26,7 @@ scope and avoid unrelated commits.
    cd css-typed-om
 
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream git@github.com:jonathantneal/css-typed-om.git
+   git remote add upstream git@github.com:csstools/css-typed-om.git
 
    # Install the tools necessary for testing
    npm install

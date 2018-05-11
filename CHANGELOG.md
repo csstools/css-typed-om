@@ -1,5 +1,10 @@
 # Changes to CSS Typed Object Model
 
+### 0.4.0 (May 11, 2018)
+
+- Fix add method
+- Support multiplication and division by number primatives
+
 ### 0.3.0 (April 17, 2018)
 
 - Only polyfill constructors on the window object passed into `polyfill()`
