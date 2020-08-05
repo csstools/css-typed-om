@@ -172,7 +172,7 @@ They all stringify back into compliant CSS.
 [npm-url]: https://www.npmjs.com/package/css-typed-om
 [npm-img]: https://img.shields.io/npm/v/css-typed-om.svg
 [cli-url]: https://travis-ci.org/csstools/css-typed-om
-[cli-img]: https://img.shields.io/travis/csstools/css-typed-om.svg
+[cli-img]: https://travis-ci.org/csstools/css-typed-om.svg?branch=master
 
 [CSS Typed Object Model]: https://github.com/csstools/css-typed-om
 [CSS Typed OM Level 1]: https://drafts.css-houdini.org/css-typed-om-1/
